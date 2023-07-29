@@ -1,6 +1,9 @@
 name: build-test
 
 on:
+  check_run:  
+    - master
+    - releases/*
   pull_request:
     branches:
       - master
